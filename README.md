@@ -2,25 +2,18 @@
 
 ## Project Overview
 
-This project analyzes complaint data using Exploratory Data Analysis (EDA) and builds machine learning models to predict complaint priority. The workflow includes data cleaning, visualization, feature engineering, model training, and performance evaluation.
+This project performs Exploratory Data Analysis (EDA) on a complaint dataset and develops machine learning models to predict complaint priority. It includes data preprocessing, visualization, feature engineering, model training, and performance evaluation.
 
 ---
 
 ## Objectives
 
-- Perform data preprocessing and cleaning
-- Explore complaint patterns through visualization
-- Analyze complaint status and priorities
-- Detect outliers and correlations
-- Train machine learning models
-- Compare model performance
-- Identify the most important features affecting complaint priority
-
----
-
-## Dataset
-
-Dataset: `complaints.csv`
+- Clean and preprocess the dataset
+- Perform Exploratory Data Analysis (EDA)
+- Analyze complaint trends and distributions
+- Detect correlations and outliers
+- Train and evaluate machine learning models
+- Predict complaint priority
 
 ---
 
@@ -37,56 +30,63 @@ Dataset: `complaints.csv`
 
 ---
 
+## Dataset
+
+- **Dataset:** `complaints.csv`
+
+---
+
 ## Project Workflow
 
 1. Data Loading
 2. Data Cleaning
 3. Feature Engineering
-4. Exploratory Data Analysis
-5. Visualization
-6. Machine Learning
+4. Exploratory Data Analysis (EDA)
+5. Data Visualization
+6. Machine Learning Model Training
 7. Model Evaluation
 8. Feature Importance Analysis
 
 ---
 
-## Visualizations
-
-- Complaint Status Distribution
-- Priority Distribution
-- Correlation Heatmap
-- Outlier Detection
-- Feature Importance
-- Model Accuracy Comparison
-
----
-
 ## Machine Learning
 
-Models were trained and compared using accuracy metrics to determine the best-performing model.
+The project trains and compares multiple machine learning models to predict complaint priority based on the available features.
 
 ---
 
 ## Repository Structure
 
+```text
 Complaint-Analysis-and-Priority-Prediction/
-
-├── README.md
-
+│
 ├── EDA_PROJECT.ipynb
-
 ├── complaints.csv
-
+├── README.md
 ├── requirements.txt
-
-└── images/
+└── .gitignore
+```
 
 ---
 
-## Author
+##  Getting Started
 
-**Eesha Mishra**
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   ```
 
-B.Tech CSE (AI & ML)
+2. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+3. Open `EDA_PROJECT.ipynb` in Jupyter Notebook or Google Colab and run the cells.
+
+---
+
+##  Author
+
+**Eesha Mishra**  
+B.Tech CSE (AI & ML)  
 VIT Vellore
